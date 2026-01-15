@@ -1,0 +1,3 @@
+blob_one: <%= ActiveStorage::FixtureSet.blob filename: "lorem.jpg" %>
+blob_two: <%= ActiveStorage::FixtureSet.blob filename: 'rails.png' %>
+blob_progprog: <%= ActiveStorage::FixtureSet.blob filename: 'lorem.png' %>

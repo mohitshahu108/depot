@@ -70,3 +70,10 @@ end
 gem "hotwire-spark", "~> 0.1.13", group: :development
 
 gem "minitest", "< 6"
+
+
+group :development, :test do
+  gem "pry-rails"
+  # You can also add these for better formatting
+  gem "pry-byebug"
+end

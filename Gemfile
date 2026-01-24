@@ -69,7 +69,7 @@ end
 
 gem "hotwire-spark", "~> 0.1.13", group: :development
 
-gem "minitest", "< 6"
+gem "minitest", "< 7"
 
 
 group :development, :test do
